@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Three.js VR App</title>
+    <!-- <style>body{margin:0;overflow:hidden}#ui{position:fixed;left:12px;top:12px;z-index:10;display:grid;gap:8px}</style> -->
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <div id="ui">
+      <button id="btnBg" class="btn">切換天空</button>
+      <button id="btnModel" class="btn">切換模型</button>
+      <button id="btnAddAll" class="btn">載入全部模型（列）</button>
+      <button id="btnPlayAll" class="btn">播放全部動畫</button>
+      <button id="btnPauseAll" class="btn">全部暫停</button>
+      <button id="btnResumeAll" class="btn">全部續播</button>
+      <button id="btnStopAll" class="btn">全部停止</button>
+      <button id="btnPlay3x" class="btn">動畫#0 播放 3 次</button>
+      <button id="btnSeek0" class="btn">動畫#0 回到 0</button>
+      <button id="btnPlayOrPause" class="btn">音樂 播/暫</button>
+      <button id="btnStopMusic" class="btn">音樂 停止</button>
+      <button id="btnSwitchToMusic" class="btn">下一首</button>
+      <button id="btnPlayVideo" class="btn">開啟影片</button>
+      <button id="btnCloseVideo" class="btn">關閉影片</button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <script type="importmap">
+          {
+            "imports": {
+              "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
+              "three/examples/": "https://unpkg.com/three@0.161.0/examples/"
+            }
+          }
+          </script>
+  </body>
+</html>
