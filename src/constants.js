@@ -18,30 +18,30 @@ export const TEX_MAG_FILTER = "LinearFilter";
 
 // 資產清單（可抽到 JSON 或後台）
 export const SKYBOXES = [
-  { url: "assets/textures/paris.jpg", mode: "stereoTB" },
-  { url: "assets/textures/alps_field.jpg", mode: "stereoTB" },
-  { url: "assets/textures/chess-pano-4k.jpg", mode: "stereoTB" },
-  { url: "assets/textures/rogland_clear_night.jpg", mode: "stereoTB" },
-  { url: "assets/textures/stierberg_sunrise.jpg", mode: "stereoTB" },
+  { url: "./assets/textures/paris.jpg", mode: "stereoTB" },
+  { url: "./assets/textures/alps_field.jpg", mode: "stereoTB" },
+  { url: "./assets/textures/chess-pano-4k.jpg", mode: "stereoTB" },
+  { url: "./assets/textures/rogland_clear_night.jpg", mode: "stereoTB" },
+  { url: "./assets/textures/stierberg_sunrise.jpg", mode: "stereoTB" },
 ];
 
 export const ALL_MODELS = [
-  "assets/models/BG-60x100.glb", // ground
-  "assets/models/tyrannosaurus_rex_lowpoly.glb",
-  "assets/models/Ekanaset_Ikea_chair.glb",
-  "assets/models/horse_statue_01_4k.gltf/horse_statue_01_4k.gltf",
-  "assets/models/concrete_cat_statue_4k.gltf/concrete_cat_statue_4k.gltf",
-  "assets/models/potted_plant_02_4k.gltf/potted_plant_02_4k.gltf",
-  "assets/models/rubber_duck_toy_4k.gltf/rubber_duck_toy_4k.gltf",
-  "assets/models/shiba.glb",
+  "./assets/models/BG-60x100.glb", // ground
+  "./assets/models/tyrannosaurus_rex_lowpoly.glb",
+  "./assets/models/Ekanaset_Ikea_chair.glb",
+  "./assets/models/horse_statue_01_4k.gltf/horse_statue_01_4k.gltf",
+  "./assets/models/concrete_cat_statue_4k.gltf/concrete_cat_statue_4k.gltf",
+  "./assets/models/potted_plant_02_4k.gltf/potted_plant_02_4k.gltf",
+  "./assets/models/rubber_duck_toy_4k.gltf/rubber_duck_toy_4k.gltf",
+  "./assets/models/shiba.glb",
 ];
 export const GROUND_MODEL_URL = ALL_MODELS[0];
 export const MODEL_URLS = ALL_MODELS.slice(1);
 
 export const PLAYLIST_MUSIC = [
-  { title: "Bell", url: "assets/media/forest_lullaby.mp3" },
-  { title: "Ambient", url: "assets/media/to_the_shining_sky.mp3" },
-  { title: "Drums", url: "assets/media/at_the_side_of_an_rpg_village.mp3" },
+  { title: "Bell", url: "./assets/media/forest_lullaby.mp3" },
+  { title: "Ambient", url: "./assets/media/to_the_shining_sky.mp3" },
+  { title: "Drums", url: "./assets/media/at_the_side_of_an_rpg_village.mp3" },
 ];
 
-export const PLAYLIST_VIDEO = [{ title: "Sea", url: "assets/media/sea.mp4" }];
+export const PLAYLIST_VIDEO = [{ title: "Sea", url: "./assets/media/sea.mp4" }];
