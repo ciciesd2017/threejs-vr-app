@@ -16,6 +16,7 @@ export class ModelManager {
   }
 
   addGround(url) {
+    // console.log("Ground:"+url)
     gltf.load(
       url,
       (g) => {
@@ -59,6 +60,7 @@ export class ModelManager {
 
   addAllRow(list) {
     list.forEach((url, i) => {
+      // console.log("model:"+url)
       gltf.load(
         url,
         (g) => {
